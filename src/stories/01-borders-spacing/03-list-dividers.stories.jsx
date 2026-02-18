@@ -26,10 +26,10 @@ export const Starter = () => {
     <div className="p-8">
       <div className="bg-white border border-gray-300 rounded-lg max-w-[384px]">
         <ul className="divide-y divide-gray-200">
-          <li className="border-b border-gray-200 p-4 hover:bg-gray-50 transition-colors duration-150">First item</li>
-          <li className="border-b border-gray-200 p-4 hover:bg-gray-50 transition-colors duration-150">Second item</li>
-          <li className="border-b border-gray-200 p-4 hover:bg-gray-50 transition-colors duration-150">Third item</li>
-          <li className="border-b border-gray-200 p-4 hover:bg-gray-50 transition-colors duration-150">Fourth item</li>
+          <li className="p-4 hover:bg-gray-50 transition-colors duration-150">First item</li>
+          <li className="p-4 hover:bg-gray-50 transition-colors duration-150">Second item</li>
+          <li className="p-4 hover:bg-gray-50 transition-colors duration-150">Third item</li>
+          <li className="p-4 hover:bg-gray-50 transition-colors duration-150">Fourth item</li>
         </ul>
       </div>
     </div>
