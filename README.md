@@ -2,6 +2,41 @@
 
 A collection of 32 Tailwind CSS drills, organized by topic.
 
+## ✅ Progress Tracker
+
+- [ ] 01 Primary Button
+- [ ] 02 Card Layout
+- [ ] 03 List Dividers
+- [ ] 04 Input Validation
+- [ ] 05 Checkbox Styling
+- [ ] 06 Disabled vs Enabled
+- [ ] 07 Focus States
+- [ ] 08 Image Scale
+- [ ] 09 Checkbox Label
+- [ ] 10 Button on Hover
+- [ ] 11 Tab Navigation
+- [ ] 12 Accordion
+- [ ] 13 Form Container
+- [ ] 14 Required Indicator
+- [ ] 15 Card Checkbox
+- [ ] 16 Navbar
+- [ ] 17 Card Horizontal
+- [ ] 18 Flex Grow
+- [ ] 19 Footer Columns
+- [ ] 20 Center Content
+- [ ] 21 Equal Columns
+- [ ] 22 Responsive Grid
+- [ ] 23 Column Span
+- [ ] 24 Blog Layout
+- [ ] 25 Photo Gallery
+- [ ] 26 Card Container
+- [ ] 27 Stack Narrow
+- [ ] 28 Button Dark
+- [ ] 29 Card Dark
+- [ ] 30 Button Transition
+- [ ] 31 Article Layout
+- [ ] 32 Loading Spinner
+
 ## 📚 What's Inside
 
 11 topic areas with 32 total drills:
