@@ -35,13 +35,13 @@ export default {
 export const Starter = () => {
   return (
     <div className="p-8">
-      <div>
+      <div className="border-gray-300 border rounded-lg shadow-md max-w-[384px]">
         <div>
-          {/* Placeholder for image */}
+          <img className="w-full h-[192px] object-cover bg-gray-200 rounded-t-lg" src="https://picsum.photos/300/200" />
         </div>
-        <div>
-          <h3>Card Title</h3>
-          <p>
+        <div className="p-6">
+          <h3 className="text-lg font-bold mb-2">Card Title</h3>
+          <p className="text-gray-600">
             This is a description of the card content. It provides additional
             information about the card.
           </p>

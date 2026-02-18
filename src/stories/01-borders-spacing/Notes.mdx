@@ -24,6 +24,10 @@
 
 **Borders:** Always need both `border` (for 1px width) + color class like `border-gray-300`. Thicker borders use `border-2`, `border-4`, etc.
 
+**Dividers:** 
+- If you need separators between stacked items, prefer `divide-y` on the parent instead of border-b on each item. 
+- This adds lines only between items and avoids an extra line under last item.
+
 **Image Aspect Ratio:**
 - `object-cover` — Fills container, maintains aspect ratio, crops if needed
 - `object-contain` — Fits entire image, maintains aspect ratio, may have empty space

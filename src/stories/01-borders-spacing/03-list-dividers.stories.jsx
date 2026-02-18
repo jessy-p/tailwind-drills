@@ -24,12 +24,12 @@ export default {
 export const Starter = () => {
   return (
     <div className="p-8">
-      <div>
-        <ul>
-          <li>First item</li>
-          <li>Second item</li>
-          <li>Third item</li>
-          <li>Fourth item</li>
+      <div className="bg-white border border-gray-300 rounded-lg max-w-[384px]">
+        <ul className="divide-y divide-gray-200">
+          <li className="border-b border-gray-200 p-4 hover:bg-gray-50 transition-colors duration-150">First item</li>
+          <li className="border-b border-gray-200 p-4 hover:bg-gray-50 transition-colors duration-150">Second item</li>
+          <li className="border-b border-gray-200 p-4 hover:bg-gray-50 transition-colors duration-150">Third item</li>
+          <li className="border-b border-gray-200 p-4 hover:bg-gray-50 transition-colors duration-150">Fourth item</li>
         </ul>
       </div>
     </div>

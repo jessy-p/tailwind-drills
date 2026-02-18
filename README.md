@@ -2,11 +2,27 @@
 
 A collection of 32 Tailwind CSS drills, organized by topic.
 
+## 📚 What's Inside
+
+11 topic areas with 32 total drills:
+
+1. **Borders & Spacing** (3 drills) - Padding, margins, shadows, borders
+2. **Form States** (4 drills) - Input validation, focus states, disabled states
+3. **Parent State Styling** (5 drills) - Group and peer interactions
+4. **Has Selector** (3 drills) - Parent styling based on children
+5. **Flexbox** (5 drills) - Layout patterns and flex properties
+6. **Grid** (5 drills) - Grid layouts and spanning
+7. **Container Queries** (2 drills) - Responsive components
+8. **Dark Mode** (2 drills) - Light/dark theme variants
+9. **Transitions** (1 drill) - Smooth property changes
+10. **Typography** (1 drill) - Font sizes, weights, and hierarchy
+11. **Animations** (1 drill) - Built-in animations
+
 ## ✅ Progress Tracker
 
-- [ ] 01 Primary Button
-- [ ] 02 Card Layout
-- [ ] 03 List Dividers
+- [x] 01 Primary Button
+- [x] 02 Card Layout
+- [x] 03 List Dividers
 - [ ] 04 Input Validation
 - [ ] 05 Checkbox Styling
 - [ ] 06 Disabled vs Enabled
@@ -36,22 +52,6 @@ A collection of 32 Tailwind CSS drills, organized by topic.
 - [ ] 30 Button Transition
 - [ ] 31 Article Layout
 - [ ] 32 Loading Spinner
-
-## 📚 What's Inside
-
-11 topic areas with 32 total drills:
-
-1. **Borders & Spacing** (3 drills) - Padding, margins, shadows, borders
-2. **Form States** (4 drills) - Input validation, focus states, disabled states
-3. **Parent State Styling** (5 drills) - Group and peer interactions
-4. **Has Selector** (3 drills) - Parent styling based on children
-5. **Flexbox** (5 drills) - Layout patterns and flex properties
-6. **Grid** (5 drills) - Grid layouts and spanning
-7. **Container Queries** (2 drills) - Responsive components
-8. **Dark Mode** (2 drills) - Light/dark theme variants
-9. **Transitions** (1 drill) - Smooth property changes
-10. **Typography** (1 drill) - Font sizes, weights, and hierarchy
-11. **Animations** (1 drill) - Built-in animations
 
 ## 🚀 Getting Started
 
