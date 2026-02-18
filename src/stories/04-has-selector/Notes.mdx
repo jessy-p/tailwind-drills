@@ -1,0 +1,15 @@
+# Has Selector
+
+**Basic has:** `has-[:checked]`, `has-[:focus]`, `has-[:invalid]`
+
+**Attribute selectors:** `has-[[required]]`, `has-[[disabled]]`, `has-[[type='checkbox']]`
+
+**Combining with group/peer:**
+- `group has-[:checked]:bg-blue-50`
+- `has-[:invalid]:border-red-500`
+- `has-[:checked]:ring-2`
+
+**Common patterns:**
+- Form container: `has-[:invalid]:border-red-500`
+- Label indicator: `has-[[required]]:after:content-['*']`
+- Parent styling: `has-[:checked]:bg-blue-50`
