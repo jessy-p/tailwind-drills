@@ -12,7 +12,7 @@
  *   - When focused, ring should be 2px blue (500 shade)
  *   - Should show ring for both mouse click and keyboard navigation
  * 
- * - Input 2 (focus-visible):
+ * - Button  (focus-visible):
  *   - When focused via keyboard only, ring should be 2px green (500 shade)
  *   - Should NOT show ring on mouse click
  * 
@@ -37,26 +37,31 @@ export const Starter = () => {
         <input
           type="text"
           placeholder="Click or tab to this input"
+          className="border border-gray-300 rounded-md px-3 py-2 w-full focus:ring-2 focus:ring-blue-500"
         />
       </div>
       
       <div>
         <label className="block mb-2 text-sm font-medium">
-          Focus-visible (keyboard only)
+          Focus-visible — keyboard only (try clicking vs tabbing)
         </label>
-        <input
-          type="text"
-          placeholder="Tab to this input"
-        />
+        <button
+          type="button"
+          className="bg-white border border-gray-300 rounded-md px-3 py-2 w-full
+                     focus:outline-none focus-visible:ring-2 focus-visible:ring-green-500"
+        >
+          Click me (no ring) · Tab to me (ring appears)
+        </button>
       </div>
       
-      <div>
+      <div className="focus-within:bg-blue-50 p-4 rounded-lg transition-colors duration-200">
         <label className="block mb-2 text-sm font-medium">
           Focus-within (parent changes when child focused)
         </label>
         <input
           type="text"
           placeholder="Focus changes the container"
+          className="border border-gray-300 rounded-md px-3 py-2 w-full"
         />
       </div>
     </div>

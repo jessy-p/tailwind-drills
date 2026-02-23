@@ -33,8 +33,9 @@ export const Starter = () => {
         <input
           type="checkbox"
           id="custom-checkbox"
+          className="appearance-none w-5 h-5 border-2 border-gray-300 cursor-pointer rounded-sm bg-white checked:bg-blue-500 checked:border-blue-500 focus:ring-2 focus:ring-blue-500 focus:ring-offset-1"
         />
-        <label htmlFor="custom-checkbox">
+        <label htmlFor="custom-checkbox" className="cursor-pointer ml-2">
           I agree to the terms and conditions
         </label>
       </div>

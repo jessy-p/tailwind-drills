@@ -4,7 +4,7 @@
 
 **Focus:** `focus:outline-none`, `focus:ring-2`, `focus:ring-blue-500`, `focus:border-blue-500`
 
-**Valid/Invalid:** `valid:border-green-500`, `invalid:border-red-500`, `user-invalid:border-red-500`
+**Valid/Invalid:** `valid:border-green-500`, `invalid:border-red-500`, `user-invalid:border-red-500`, `user-invalid:ring-red-500`
 
 **Required:** `required:border-yellow-500`
 
@@ -17,3 +17,16 @@
 **Checkbox:** `appearance-none`, `checked:bg-blue-500`, `checked:border-blue-500`
 
 **Peer:** `peer`, `peer-checked:`, `peer-focus:`, `peer-invalid:`
+
+## Key Learnings
+
+**`appearance-none`:**
+- Removes default browser styling from form inputs (checkboxes, radios, selects, etc.)
+- Allows full custom styling via Tailwind classes
+- **Caveat:** You must manually provide focus and checked states for accessibility—don't leave users without visual feedback. Always pair with `focus:ring-2` and appropriate state variants like `checked:`.
+
+**`focus` vs `focus-visible` vs `focus-within`:**
+- **`focus:`** - Triggers on ANY focus (mouse click, keyboard, programmatic). Shows visual feedback for all interaction methods.
+- **`focus-visible:`** - Triggers ONLY on keyboard navigation and programmatic focus meant for accessibility. Mouse clicks don't show feedback. Better UX—avoids visual clutter from mouse users.
+- **`focus-within:`** - Applies to parent when ANY child element inside is focused. Useful for form containers or groups that need to highlight when active.
+- **Note:** `focus-visible` is more prominently visible on buttons than inputs in most browsers. Test with buttons to see the effect clearly.

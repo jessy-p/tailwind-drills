@@ -40,6 +40,7 @@ export const Starter = () => {
             type="email"
             required
             placeholder="Enter your email"
+            className="border border-gray-300 rounded-md px-3 py-2 w-full placeholder:text-gray-400 focus:outline-none  focus:border-blue-500 focus:ring-2 user-valid:ring-green-500  user-valid:border-green-500 user-invalid:border-red-500  user-invalid:ring-red-500"
           />
         </div>
         
@@ -50,6 +51,7 @@ export const Starter = () => {
           <input
             type="text"
             placeholder="Enter your name"
+            className="border border-gray-300 rounded-md px-3 py-2 w-full placeholder:text-gray-400 focus:outline-none  focus:border-blue-500 focus:ring-2 user-valid:ring-green-500  user-valid:border-green-500 user-invalid:border-red-500  user-invalid:ring-red-500"
           />
         </div>
       </div>
