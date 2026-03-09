@@ -34,8 +34,10 @@ export const Starter = () => {
         <input
           type="checkbox"
           id="task-1"
+          className="peer appearance-none h-5 w-5 border-2 border-gray-300 rounded-sm cursor-pointer checked:bg-blue-500 checked:border-blue-500"
         />
-        <label htmlFor="task-1">
+        <label htmlFor="task-1"
+          className="ml-2 cursor-pointer text-gray-700 peer-checked:text-blue-600 peer-checked:font-semibold transition-all duration-200">
           Complete this task
         </label>
       </div>

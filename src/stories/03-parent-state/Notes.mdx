@@ -17,3 +17,34 @@
 **Transform:** `scale-110`, `scale-105`, `translate-x-2`
 
 **Opacity:** `opacity-0`, `opacity-50`, `opacity-100`
+
+## Key Learnings
+
+**Image Display in Cards (Best Practices):**
+- **Wrapper pattern:** Always wrap images in a container div with fixed dimensions and `overflow-hidden` to clip scaled/transformed images
+- **Container sizing:** Use `w-full` for responsive width and fixed height (e.g., `h-48`, `h-64`) on the wrapper
+- **Image sizing:** Apply `w-full h-full object-cover` to the `<img>` to fill container, maintain aspect ratio, and crop if needed
+- **Loading placeholder:** Add `bg-gray-300` (or similar) to wrapper as a visual placeholder while image loads
+- **Hover effects:** Combine with `group` pattern for zoom effects—`group` on card, `group-hover:scale-110 transition-transform duration-300` on image
+- **Performance:** Consider `loading="lazy"` for below-the-fold images
+
+**Example structure:**
+```jsx
+<div className="group">
+  <div className="w-full h-48 overflow-hidden rounded-t-lg bg-gray-300">
+    <img 
+      src="..." 
+      alt="Description"
+      className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+    />
+  </div>
+</div>
+```
+
+**Checkbox-Label Spacing:**
+- Apply spacing (`ml-2`) to the label, not the checkbox—keeps clickable area precise and positioning semantic
+
+**Transitions on Interactive Elements:**
+- Prevents jarring, abrupt changes — makes UI feel polished and intentional
+- transition-all duration-200 is a solid default for most interactions (hover, focus, checked states) to feel responsive
+- Use transition-colors or transition-transform to be more targeted if only specific properties change.

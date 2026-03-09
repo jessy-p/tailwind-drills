@@ -46,15 +46,15 @@ export default {
 
 export const Starter = () => {
   return (
-    <div className="p-8">
+    <div className="p-8 bg-white border border-gray-300 rounded-lg md:max-w-lg">
       <div>
-        <input type="checkbox" id="accordion-1" />
-        <label htmlFor="accordion-1">
+        <input type="checkbox" id="accordion-1" className="peer hidden"/>
+        <label htmlFor="accordion-1" className="flex justify-between items-center p-4 cursor-pointer font-medium peer-checked:[&_span:last-child]:rotate-180">
           <span>What is Tailwind CSS?</span>
-          <span>▼</span>
+          <span className="transform duration-200">▼</span>
         </label>
-        <div>
-          <p>
+        <div className="px-4 max-h-0 peer-checked:max-h-50 invisible opacity-0 peer-checked:visible peer-checked:opacity-100 transition-all duration-300 overflow-hidden">
+          <p className="pb-4 text-gray-600">
             Tailwind CSS is a utility-first CSS framework that provides
             low-level utility classes to build custom designs without leaving
             your HTML.

@@ -37,10 +37,10 @@ export default {
 export const Starter = () => {
   return (
     <div className="p-8">
-      <div>
-        <h3>Hover over this card</h3>
-        <p>A button will appear below</p>
-        <button>Click me</button>
+      <div className="group bg-white border border-gray-300 rounded-lg p-6 max-w-[384px]">
+        <h3 className="text-lg font-semibold mb-2">Hover over this card</h3>
+        <p className="text-gray-600 mb-4">A button will appear below</p>
+        <button className="bg-blue-500 text-white px-4 py-2 rounded-md cursor-pointer opacity-0 group-hover:opacity-100 transition-opacity duration-200">Click me</button>
       </div>
     </div>
   );

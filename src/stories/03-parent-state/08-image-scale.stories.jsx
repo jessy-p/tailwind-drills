@@ -38,15 +38,15 @@ export default {
 export const Starter = () => {
   return (
     <div className="p-8">
-      <div>
+      <div className="group bg-white border border-gray-300 rounded-lg shadow-md max-w-sm overflow-hidden">
         <div>
-          <div>
-            {/* Placeholder for image */}
+          <div className="h-48 rounded-t-lg bg-gray-300 overflow-hidden">
+            <img className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" src="https://picsum.photos/384/192" />
           </div>
         </div>
-        <div>
-          <h3>Hover over this card</h3>
-          <p className="text-gray-600">The image should scale up smoothly</p>
+        <div className="p-6">
+          <h3 className="text-lg font-semibold">Hover over this card</h3>
+          <p className="text-gray-600 font-semibold">The image should scale up smoothly</p>
         </div>
       </div>
     </div>
