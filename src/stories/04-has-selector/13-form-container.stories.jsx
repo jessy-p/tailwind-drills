@@ -33,11 +33,12 @@ export default {
 
 export const Starter = () => {
   return (
-    <div className="p-8">
+    <div className="p-6 border-2 border-gray-300 rounded-lg bg-white has-[input:user-invalid]:border-red-500 has-[input:user-invalid]:bg-red-50 transition-colors duration-200">
       <div>
-        <label>Email Address</label>
+        <label className="block mb-2 font-medium text-sm">Email Address</label>
         <input
           type="email"
+          className="border border-gray-300 rounded-md px-3 py-2 w-full user-invalid:border-red-500"
           required
           placeholder="Enter your email"
         />

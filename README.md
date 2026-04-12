@@ -23,17 +23,17 @@ A collection of 32 Tailwind CSS drills, organized by topic.
 - [x] 01 Primary Button
 - [x] 02 Card Layout
 - [x] 03 List Dividers
-- [ ] 04 Input Validation
-- [ ] 05 Checkbox Styling
-- [ ] 06 Disabled vs Enabled
-- [ ] 07 Focus States
-- [ ] 08 Image Scale
-- [ ] 09 Checkbox Label
-- [ ] 10 Button on Hover
-- [ ] 11 Tab Navigation
-- [ ] 12 Accordion
-- [ ] 13 Form Container
-- [ ] 14 Required Indicator
+- [x] 04 Input Validation
+- [x] 05 Checkbox Styling
+- [x] 06 Disabled vs Enabled
+- [x] 07 Focus States
+- [x] 08 Image Scale
+- [x] 09 Checkbox Label
+- [x] 10 Button on Hover
+- [x] 11 Tab Navigation
+- [x] 12 Accordion
+- [x] 13 Form Container
+- [x] 14 Required Indicator
 - [ ] 15 Card Checkbox
 - [ ] 16 Navbar
 - [ ] 17 Card Horizontal
